@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aula.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>LISTA ORDENADA E NÃO ORDENADA</h1>
+    <ol>
+        <li>é um item</li>
+        <li>isso é outro item</li>
+    </ol>
+    <h1>FORMULARIO</h1>
+    <form action="">
+        <fieldset>
+            <legend>FORMULARIO DE CONTATO</legend>
+        <label for="email"> E-mail:<input type="email" id="email" name="email" placeholder="nome@email"></label>
+        <br>
+        <label for="dtnascimento">data de nascimento:<input type="date" id="dtnascimento" name=""
+                placeholder="dd/mm/aaaa"></label><br>
+        <label for="diasemana">Dia da semana:
+            <select name="diasemana" id="diasemana">
+                <option value="" selected>Selecione</option>
+                <option value="domingo">domingo</option>
+                <option value="Segunda-feira">Segunda-feira</option>
+                <option value="Terça-feira">Terça-feira</option>
+                <option value="Quarta-feira">Quarta-feira</option>
+                <option value="Quinta-feira">Quinta-feira</option>
+                <option value="Sexta-feira">Sexta-feira</option>
+                <option value="Sabado">Sabado</option>
+            </select>
+            <br>
+            <!--DATA LIST-->
+            <label for="dsemana">Dia da semana</label>
+            <input list="dsemana">
+            <datalist id="dsemana">
+                <option value="" >Selecione</option>
+                <option value="domingo">domingo</option>
+                <option value="Segunda-feira">Segunda-feira</option>
+                <option value="Terça-feira">Terça-feira</option>
+                <option value="Quarta-feira">Quarta-feira</option>
+                <option value="Quinta-feira">Quinta-feira</option>
+                <option value="Sexta-feira">Sexta-feira</option>
+                <option value="Sabado">Sabado</option>
+            </datalist>
+        </label>
+        <br>
+        <label for="Mensagem">Mensagem:</label>
+        <textarea name="Mensagem" id="Mensagem" cols="30" rows="10" placeholder="Digite sua mensagem..."></textarea>
+        <br>
+        <a href="https://www.google.com/search?q=como+colocar+link+no+bot%C3%A3o+html&rlz=1C1CHZN_pt-BRBR1054&oq=&aqs=chrome.0.69i59i450l3j0i66i143i362j46i143i362j0i66i143i362l2j46i143i362.86664j0j7&sourceid=chrome&ie=UTF-8&safe=active&ssui=on" target="_blank"><button type="button">Clique aqui</button></a>
+        <input type="submit" id="eviar" name="enviar" value="enviar">
+    </fieldset>
+    <h1>Tipos de input</h1>
+    <input type="checkbox" id="Internet"> Internet<br>
+    <input type="radio">Sim <input type="radio">Não<br>
+    <input type="color"><br>
+    <input type="datetime"><br>
+    <input type="date"><br>
+    <input type="datetime-local"><br>
+    <input type="file"><br>
+    <input type="hidden"><br>
+    <input type="image"><br>
+    <input type="month"><br>
+    <input type="number"><br>
+    <input type="password"><br>
+    <input type="range"><br>
+    <input type="reset"><br>
+    <input type="search"><br>
+    <input type="tel" placeholder="(XX)XXXX-XXXX"><br>
+    <input type="time" name="" id=""><br>
+    <input type="url" name="" id=""><br>
+    <input type="week"><br>
+    </form>
+</body>
+
+</html>
