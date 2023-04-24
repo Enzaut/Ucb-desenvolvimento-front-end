@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&display=swap');
+
+h1{
+    font-size: 32pt;
+    font-family: 'Exo 2', sans-serif;
+}
+
+a:link{
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+a:visited{
+    color: slategray;
+}
+
+a:hover{
+    color: goldenrod;
+    background-color: black;
+}
+
+a:active{
+    color: hotpink;
+    background-color: brown;
+}
+a{
+    border: 5px solid rebeccapurple;
+    background-color: rgb(116, 201, 201);
+    padding: 3px;
+}
+.div1{    font-size: 18pt;
+    font-family: 'Exo 2', sans-serif;
+    width: 100%px;
+    background-color: gray;
+    padding: 10px;
+    margin: 0;
+    border: 20px solid salmon;
+}
+
+h1{
+    font-size: 2.5em;
+    color: rgb(56, 56, 105);
+    font-weight: lighter;
+    text-decoration: dashed underline;
+    text-align: center;
+}
+p{color: rgb(51, 33, 70);
+font-size: 2em;
+font-weight: bold;
+text-decoration: underline;
+word-spacing: 4px;
+letter-spacing: -1px;
+text-align: justify;
+text-indent: 50px;
+line-height: 45px;
+}
