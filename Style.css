@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
+
+/*LINKS*/
+
+.cabecalho{display: flex;
+align-items: center;
+}
+
+#menu{
+    background-color: #27348b;
+    margin-top: -30px;
+    margin-bottom: -40px;
+    margin-left: -10px;
+    margin-right: -8px;
+    display: flex;
+}
+
+#imagem{
+    margin-top: 40px;
+}
+
+#menus:link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.itens:visited{
+    color: rgb(255, 255, 255);
+}
+#menus:active{
+    color: rgb(255, 255, 255);
+}
+#menus:hover{color: black;}
+
+#menus:hover{
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+#menus{color: white;
+    padding: 6px;
+}
+
+#imagem{
+    margin-left: 50px;
+}
+
+ul{
+    font-size: 18px;
+    list-style-type: none;
+    display: flex;
+    margin-left: 650px;
+    margin-top: 40px;   
+}
+li{
+    padding-left: 10px;
+}
+/* FIM LINKS*/
+
+
+#meio{
+    margin-top: 180px;
+    text-align: center;
+}
+h1{
+    color: white;
+text-align: center;
+font-size: 40px;
+}
+
+#linksm{
+    border: 2px white;
+    text-align: center;
+    font-size: 20px;
+}
+
+#menucontato{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 28px;
+    padding-left: 28px;
+    border: 2px white;
+    border-radius: 5px;
+    background-color: white;
+}
+#menusaiba{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 2px white;
+    border-radius: 5px;
+}
+#linksm :link{
+    text-decoration: none;
+    border: 2px white solid;
+}
+#linksm :visited{
+    color: white;
+}
+#menucontato:visited{
+    color: black;
+}
+#menucontato:link{
+    color: black;
+}
+#menusaiba:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/*OUTRA PAGINA*/
+label{
+    align-items: center;
+    padding: 10px;
+}
+
+#formulario{
+        margin-top: 180px;
+        text-align: center;
+        border: white solid 2px;
+        margin-left: 550px;
+        margin-right: 550px;
+}
+
+#limpar{
+font-size: 25px;
+border-radius: 5px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
